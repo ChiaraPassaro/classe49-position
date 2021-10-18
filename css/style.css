@@ -1,0 +1,77 @@
+.container {
+  position: relative;
+  margin-top: 100px;
+}
+.square {
+  width: 60px;
+  height: 60px;
+}
+.green {
+  background-color: green;
+  /* position: absolute;
+  bottom: 0;
+  left: 100%; */
+}
+.relative {
+  position: relative;
+}
+.red {
+  background-color: red;
+  /* width: 400px;
+  height: 400px; */
+}
+.red img {
+  width: 300px;
+}
+.blue {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+.blue:first-child .red:nth-child(2) {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.blue:nth-child(2) .red:nth-child(2) {
+  position: relative;
+  left: 10px;
+}
+.violet {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: violet;
+  width: 100%;
+  height: 100px;
+  z-index: 999;
+}
+
+/* .absolute {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+} */
+/* #corner-top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#corner-bottom-right{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#zindex {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 0;
+} */
+
+.box-container {
+  width: 600px;
+  height: 500px;
+}
